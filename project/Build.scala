@@ -10,8 +10,7 @@ object ApplicationBuild extends Build {
     val appDependencies = Seq(
       "postgresql" % "postgresql" % "9.1-902.jdbc4",
       "org.hibernate" % "hibernate-entitymanager" % "3.6.9.Final",
-      "net.sourceforge.collections" % "collections-generic" % "4.01",
-      "play" % "spring_2.9.1" % "2.0"
+      "net.sourceforge.collections" % "collections-generic" % "4.01"
     )
 
     val main = PlayProject(appName, appVersion, appDependencies, mainLang = JAVA).settings(
