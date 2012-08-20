@@ -1,0 +1,58 @@
+
+body{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    background-color: #dd5500;
+    font-size:16px;
+    margin:0;
+    padding:0;
+}
+
+#header{
+    color: #fff;
+    background-color:#333;
+    height:100px;
+}
+
+#header h1 {
+    text-align: center;
+}
+
+#main {
+    background-color:#eee;
+    min-height:550px; /* for modern browsers */
+    height:auto !important; /* for modern browsers */
+    height:550px; /* for IE5.x and IE6 */
+    text-align: center
+}
+
+#main h3 {
+    width: 400px;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    margin-left: -200px
+}
+
+#main #form label {
+    width:100px;
+    float:left;
+}
+
+.errors {
+    color: #FF0000;
+}
+
+th                 {background: #dd5500; color: #FFF}
+tr:nth-child(even) {background: #88ffbb}
+tr:nth-child(odd)  {background: #FFF}
+
+
+
+
+#footer {
+    clear:both;
+    background-color:#333;
+    height:100px;
+    color: #fff;
+    text-align: center;
+}
